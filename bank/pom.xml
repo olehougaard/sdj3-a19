@@ -9,8 +9,9 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
-      <module>bank_shared</module>
+    <module>bank_shared</module>
     <module>bank_hq</module>
+    <module>bank_hq_guice</module>
     <module>bank_client</module>
     <module>bank_branch</module>
   </modules>
