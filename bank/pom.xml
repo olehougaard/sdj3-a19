@@ -6,18 +6,17 @@
 
   <groupId>dk.via.bank</groupId>
   <artifactId>bank</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>bank_shared</module>
-      <module>bank_hq</module>
-      <module>bank_client</module>
-      <module>bank_branch</module>
-    </modules>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+      <module>bank_shared</module>
+    <module>bank_hq</module>
+    <module>bank_client</module>
+    <module>bank_branch</module>
+  </modules>
 
-    <name>bank</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>bank</name>
+  <description>A 3-tier banking system prototype</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
