@@ -1,4 +1,4 @@
-DROP SCHEMA bank CASCADE;
+DROP SCHEMA IF EXISTS bank CASCADE;
 CREATE SCHEMA bank;
 SET SCHEMA 'bank';
 
@@ -65,6 +65,6 @@ INSERT INTO Customer VALUES
   ('1122334455', 'Other guy', 'Other address');
 
 INSERT INTO Branch VALUES
-  (1234, 'Chr. M Østergaardsvej 4'),
+  (1234, 'Chr. M ï¿½stergaardsvej 4'),
   (1122, '461 Ocean Boulevard');
   
